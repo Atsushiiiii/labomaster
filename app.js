@@ -6,10 +6,10 @@ app.use(express.static('public'));
 app.use(express.urlencoded({extended: false}));
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '1202_Grado',
-  database: 'labomaster'
+  host: 'us-cdbr-east-02.cleardb.com',
+  user: 'b009e0e6049d3e',
+  password: '4032c2fa',
+  database: 'heroku_78895ae80102ee8'
 });
 
 connection.connect((err) => {
